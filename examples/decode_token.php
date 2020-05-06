@@ -1,9 +1,9 @@
 <?php
 
-use PayU\ApplePay\ApplePayDecodingServiceFactory;
-use PayU\ApplePay\ApplePayValidator;
-use PayU\ApplePay\Exception\DecodingFailedException;
-use PayU\ApplePay\Exception\InvalidFormatException;
+use Crestoff\ApplePay\ApplePayDecodingServiceFactory;
+use Crestoff\ApplePay\ApplePayValidator;
+use Crestoff\ApplePay\Exception\DecodingFailedException;
+use Crestoff\ApplePay\Exception\InvalidFormatException;
 
 require __DIR__ . '/../vendor/autoload.php';
 

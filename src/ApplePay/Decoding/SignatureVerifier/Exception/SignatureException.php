@@ -1,6 +1,6 @@
 <?php
 
-namespace PayU\ApplePay\Decoding\SignatureVerifier\Exception;
+namespace Crestoff\ApplePay\Decoding\SignatureVerifier\Exception;
 
 use Exception;
 

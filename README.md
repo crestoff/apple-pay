@@ -1,4 +1,4 @@
-[![Travis CI](https://travis-ci.org/PayU-EMEA/apple-pay.svg)](https://travis-ci.org/PayU-EMEA/apple-pay) [![Latest Stable Version](https://poser.pugx.org/payu/apple-pay/v/stable.svg)](https://packagist.org/packages/payu/apple-pay) [![Total Downloads](https://poser.pugx.org/payu/apple-pay/downloads.svg)](https://packagist.org/packages/payu/apple-pay) [![License](https://poser.pugx.org/payu/apple-pay/license.svg)](https://packagist.org/packages/payu/apple-pay)
+[![Travis CI](https://travis-ci.org/Crestoff-EMEA/apple-pay.svg)](https://travis-ci.org/Crestoff-EMEA/apple-pay) [![Latest Stable Version](https://poser.pugx.org/Crestoff/apple-pay/v/stable.svg)](https://packagist.org/packages/Crestoff/apple-pay) [![Total Downloads](https://poser.pugx.org/payu/apple-pay/downloads.svg)](https://packagist.org/packages/payu/apple-pay) [![License](https://poser.pugx.org/payu/apple-pay/license.svg)](https://packagist.org/packages/payu/apple-pay)
 
 
 **Apple Pay Token Decoder**
@@ -8,7 +8,7 @@ This library is used to decode tokens for Apple Pay.
 It takes a payment token data and returns an ApplePayPaymentData object.
 ex:
 ```
-class PayU\ApplePay\Decoding\ApplePayPaymentData#19 (9) {
+class Crestoff\ApplePay\Decoding\ApplePayPaymentData#19 (9) {
   private $version =>
   int(1)
   private $applicationPrimaryAccountNumber =>
@@ -37,7 +37,7 @@ Run `composer require payu/apple-pay`
 
 **Usage:**
 
-See https://github.com/PayU/apple-pay/blob/master/examples/decode_token.php
+See https://github.com/Crestoff/apple-pay/blob/master/examples/decode_token.php
 
 For more information about how Apple Pay tokens decoding works go to:
 https://developer.apple.com/library/content/documentation/PassKit/Reference/PaymentTokenJSON/PaymentTokenJSON.html

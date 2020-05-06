@@ -1,9 +1,9 @@
 <?php
 
-namespace PayU\ApplePay\Decoding\OpenSSL;
+namespace Crestoff\ApplePay\Decoding\OpenSSL;
 
-use PayU\ApplePay\ApplePaySettings;
-use PayU\ApplePay\Decoding\TemporaryFile\TemporaryFile;
+use Crestoff\ApplePay\ApplePaySettings;
+use Crestoff\ApplePay\Decoding\TemporaryFile\TemporaryFile;
 
 class OpenSslServiceTest extends \PHPUnit_Framework_TestCase
 {

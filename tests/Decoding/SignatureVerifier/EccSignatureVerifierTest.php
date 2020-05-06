@@ -1,10 +1,10 @@
 <?php
 
-namespace PayU\ApplePay\Decoding\SignatureVerifier;
+namespace Crestoff\ApplePay\Decoding\SignatureVerifier;
 
-use PayU\ApplePay\Decoding\Asn1Wrapper;
-use PayU\ApplePay\Decoding\OpenSSL\OpenSslService;
-use PayU\ApplePay\Decoding\SignatureVerifier\Exception\SignatureException;
+use Crestoff\ApplePay\Decoding\Asn1Wrapper;
+use Crestoff\ApplePay\Decoding\OpenSSL\OpenSslService;
+use Crestoff\ApplePay\Decoding\SignatureVerifier\Exception\SignatureException;
 use PHPUnit_Framework_MockObject_MockObject;
 
 class EccSignatureVerifierTest extends \PHPUnit_Framework_TestCase
@@ -51,7 +51,7 @@ class EccSignatureVerifierTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException \PayU\ApplePay\Decoding\SignatureVerifier\Exception\SignatureException
+     * @expectedException \Crestoff\ApplePay\Decoding\SignatureVerifier\Exception\SignatureException
      * @expectedExceptionMessage Invalid digest
      */
     public function testInvalidDigest() {
@@ -67,7 +67,7 @@ class EccSignatureVerifierTest extends \PHPUnit_Framework_TestCase
 
 
     /**
-     * @expectedException \PayU\ApplePay\Decoding\SignatureVerifier\Exception\SignatureException
+     * @expectedException \Crestoff\ApplePay\Decoding\SignatureVerifier\Exception\SignatureException
      * @expectedExceptionMessage exception message
      */
     public function testCannotVerifySignature() {

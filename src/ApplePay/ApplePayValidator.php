@@ -1,8 +1,8 @@
 <?php
 
-namespace PayU\ApplePay;
+namespace Crestoff\ApplePay;
 
-use PayU\ApplePay\Exception\InvalidFormatException;
+use Crestoff\ApplePay\Exception\InvalidFormatException;
 
 class ApplePayValidator
 {
@@ -18,7 +18,7 @@ class ApplePayValidator
     /**
      * @param array $input
      * @return bool
-     * @throws \PayU\ApplePay\Exception\InvalidFormatException
+     * @throws \Crestoff\ApplePay\Exception\InvalidFormatException
      */
     public function validatePaymentDataStructure(array $input)
     {

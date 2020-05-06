@@ -1,10 +1,10 @@
 <?php
 
-namespace PayU\ApplePay\Decoding\Decoder;
+namespace Crestoff\ApplePay\Decoding\Decoder;
 
-use PayU\ApplePay\Decoding\Decoder\Algorithms\Ecc;
-use PayU\ApplePay\Decoding\OpenSSL\OpenSslService;
-use PayU\ApplePay\Decoding\TemporaryFile\TemporaryFileService;
+use Crestoff\ApplePay\Decoding\Decoder\Algorithms\Ecc;
+use Crestoff\ApplePay\Decoding\OpenSSL\OpenSslService;
+use Crestoff\ApplePay\Decoding\TemporaryFile\TemporaryFileService;
 
 class ApplePayDecoderFactory
 {

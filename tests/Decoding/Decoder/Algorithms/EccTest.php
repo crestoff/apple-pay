@@ -1,10 +1,10 @@
 <?php
 
-namespace PayU\ApplePay\Decoding;
+namespace Crestoff\ApplePay\Decoding;
 
-use PayU\ApplePay\Decoding\Decoder\Algorithms\Ecc;
-use PayU\ApplePay\Decoding\OpenSSL\OpenSslService;
-use PayU\ApplePay\Decoding\TemporaryFile\TemporaryFileService;
+use Crestoff\ApplePay\Decoding\Decoder\Algorithms\Ecc;
+use Crestoff\ApplePay\Decoding\OpenSSL\OpenSslService;
+use Crestoff\ApplePay\Decoding\TemporaryFile\TemporaryFileService;
 use PHPUnit_Framework_MockObject_MockObject;
 
 class EccTest extends \PHPUnit_Framework_TestCase

@@ -1,11 +1,11 @@
 <?php
 
-namespace PayU\ApplePay\Decoding;
+namespace Crestoff\ApplePay\Decoding;
 
-use PayU\ApplePay\Decoding\OpenSSL\OpenSslService;
-use PayU\ApplePay\Decoding\SignatureVerifier\SignatureVerifierFactory;
-use PayU\ApplePay\Decoding\TemporaryFile\TemporaryFile;
-use PayU\ApplePay\Decoding\TemporaryFile\TemporaryFileService;
+use Crestoff\ApplePay\Decoding\OpenSSL\OpenSslService;
+use Crestoff\ApplePay\Decoding\SignatureVerifier\SignatureVerifierFactory;
+use Crestoff\ApplePay\Decoding\TemporaryFile\TemporaryFile;
+use Crestoff\ApplePay\Decoding\TemporaryFile\TemporaryFileService;
 
 class PKCS7SignatureValidatorTest extends \PHPUnit_Framework_TestCase
 {

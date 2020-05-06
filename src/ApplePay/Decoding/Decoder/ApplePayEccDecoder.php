@@ -1,11 +1,11 @@
 <?php
 
-namespace PayU\ApplePay\Decoding\Decoder;
+namespace Crestoff\ApplePay\Decoding\Decoder;
 
 use InvalidArgumentException;
-use PayU\ApplePay\Decoding\ApplePayPaymentData;
-use PayU\ApplePay\Decoding\Decoder\Algorithms\Ecc;
-use PayU\ApplePay\Exception\DecodingFailedException;
+use Crestoff\ApplePay\Decoding\ApplePayPaymentData;
+use Crestoff\ApplePay\Decoding\Decoder\Algorithms\Ecc;
+use Crestoff\ApplePay\Exception\DecodingFailedException;
 
 class ApplePayEccDecoder implements ApplePayDecoderInterface
 {

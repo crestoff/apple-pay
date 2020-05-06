@@ -1,8 +1,8 @@
 <?php
 
-namespace PayU\ApplePay;
+namespace Crestoff\ApplePay;
 
-use PayU\ApplePay\Exception\InvalidFormatException;
+use Crestoff\ApplePay\Exception\InvalidFormatException;
 
 class ApplePayValidatorTest extends \PHPUnit_Framework_TestCase
 {

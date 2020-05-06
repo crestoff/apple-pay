@@ -1,6 +1,6 @@
 <?php
 
-namespace PayU\ApplePay\Decoding;
+namespace Crestoff\ApplePay\Decoding;
 
 use phpseclib\File\ASN1;
 

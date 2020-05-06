@@ -1,10 +1,10 @@
 <?php
 
-namespace PayU\ApplePay\Decoding;
+namespace Crestoff\ApplePay\Decoding;
 
-use PayU\ApplePay\Decoding\OpenSSL\OpenSslService;
-use PayU\ApplePay\Decoding\SignatureVerifier\SignatureVerifierFactory;
-use PayU\ApplePay\Decoding\TemporaryFile\TemporaryFileService;
+use Crestoff\ApplePay\Decoding\OpenSSL\OpenSslService;
+use Crestoff\ApplePay\Decoding\SignatureVerifier\SignatureVerifierFactory;
+use Crestoff\ApplePay\Decoding\TemporaryFile\TemporaryFileService;
 
 class PKCS7SignatureValidator
 {
@@ -37,7 +37,7 @@ class PKCS7SignatureValidator
      * @param $rootCertificatePath
      * @param $signatureExpirationTime
      * @return bool
-     * @throws \PayU\ApplePay\Decoding\SignatureVerifier\Exception\SignatureException
+     * @throws \Crestoff\ApplePay\Decoding\SignatureVerifier\Exception\SignatureException
      * @throws \Exception
      * @throws \RuntimeException
      */

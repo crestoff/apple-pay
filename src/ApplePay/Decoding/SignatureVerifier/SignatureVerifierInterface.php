@@ -1,6 +1,6 @@
 <?php
 
-namespace PayU\ApplePay\Decoding\SignatureVerifier;
+namespace Crestoff\ApplePay\Decoding\SignatureVerifier;
 
 interface SignatureVerifierInterface
 {

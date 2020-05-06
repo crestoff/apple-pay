@@ -1,11 +1,11 @@
 <?php
 
-namespace PayU\ApplePay\Decoding;
+namespace Crestoff\ApplePay\Decoding;
 
 use Exception;
-use PayU\ApplePay\Decoding\Decoder\ApplePayDecoderFactory;
-use PayU\ApplePay\Decoding\Decoder\ApplePayEccDecoder;
-use PayU\ApplePay\ApplePayValidator;
+use Crestoff\ApplePay\Decoding\Decoder\ApplePayDecoderFactory;
+use Crestoff\ApplePay\Decoding\Decoder\ApplePayEccDecoder;
+use Crestoff\ApplePay\ApplePayValidator;
 use PHPUnit_Framework_MockObject_MockObject;
 
 class ApplePayDecodingServiceTest extends \PHPUnit_Framework_TestCase
